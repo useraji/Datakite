@@ -1,0 +1,110 @@
+---
+import Mainlayout from '../layout/Mainlayout.astro'
+---
+
+<Mainlayout>
+	<div class="px-12 py-12 gap-x-10 flex flex-row justify-center items-centers w-full h-[36em] bg-auto bg-no-repeat bg-right-top" style="background-image: url(/public/bg.png);">
+		<div class="flex mt-10 flex-col gap-y-5 items-start animate__animated animate__fadeInLeft">
+			<h1 class="text-7xl font-bold max-w-md">SELAMAT DATANG</h1>
+			<p class="text-xl  font-bold italic text-orange-400">Menuju FKIP On BaseData Drive</p>
+			<a href="/" class="px-5 py-2 w-32 bg-slate-800 text-white font-bold rounded-md">Get Started</a>
+		</div>
+
+		<div>
+			<img src="./public/icon.png" alt="" class="w-[35em] animate__animated animate__fadeInRight">
+		</div>
+	</div>
+
+	<div class="px-12 py-3 h-[100vh] z-40 relative top-[-2em] flex justify-center items-center gap-x-32">
+		<div class="flex flex-col justify-start gap-y-5">
+			<h1 class="text-3xl font-bold text-orange-400">DataKite FKIP UNTAN</h1>
+			<h2 class="text-lg font-bold">Portal Data untuk KBM</h2>
+			<p class="font-semibold text-md text-slate-600 max-w-sm text-justify">DataKite FKIP UNTAN merupakan platform digital yang dibentuk oleh Departemen Riset dan Data BEM FKIP UNTAN yang berfungsi sebagai wadah publikasi dari data yang hendak maupun telah diproses melalui survei serta analisis pengolahan untuk mewujudkan BEM FKIP UNTAN yang berbasis penelitian.
+			“DataKite FKIP UNTAN” adalah nama dari sebuah cita-cita dan harapan untuk mewujudkan #FKIPBaseonDataDrive.</p>
+		</div>
+		
+		<div>
+			<img src="/scale.png" alt="" class="w-[20em]">
+		</div>
+	</div>	
+
+
+	<div class="mt-2 px-12 flex items-star justify-center gap-x-24">
+		<div class="px-10 py-5 w-[25em] bg-slate-800 rounded-lg flex flex-col gap-3 justify-center items-center drop-shadow-lg animate__animated animate__fadeInLeft">
+			<h1 class="text-white text-xl font-bold text-center">VISI</h1>
+			<p class="=text-md font-semibold text-justify text-white">Mendukung BEM FKIP UNTAN dalam meningkatkan kinerja dengan melakukan riset dan analisis data terhadap permasalahan mahasiswa FKIP UNTAN. Memberikan landasan untuk kebijakan yang didasarkan pada data, berfokus pada kebutuhan, dan memberikan solusi yang tepat.</p>
+		</div>
+
+		<div class="px-10 py-5 w-[25em] bg-slate-800 rounded-lg flex flex-col gap-3 justify-center items-center drop-shadow-lg animate__animated animate__fadeInRight">
+			<h1 class="text-white text-xl font-bold text-center">MISI</h1>
+			<ol class="text-white font-semibold text-justify list-decimal">
+				<li>Menyediakan database terbuka dan mudah diakses untuk KBM FKIP UNTAN</li>
+				<li>Melakukan survei untuk mendapatkan masukan dari KBM FKIP UNTAN</li>
+				<li>Melakukan penelitian tentang berbagai isu di FKIP UNTAN</li>
+				<li>Menggunakan data untuk memberikan pemahaman yang lebih baik kepada KBM FKIP UNTAN</li>
+			</ol>
+		</div>
+	</div>
+
+	<!-- Survei -->
+	<div class="mt-16 px-12 flex flex-col items-center">
+		<h1 class="text-3xl font-bold uppercase text-center text-orange-400">survei</h1>
+		<div class="mt-5 flex gap-x-10">
+			<div class="border-4 rounded-xl max-w-md flex flex-col justify-center gap-y-1 drop-shadow-lg">
+				<div class="p-5 max-w-full bg-neutral-700 h-[15em] rounded-xl"></div>
+				<div class="mt-4 pb-5 px-10 flex flex-col justify-center items-center gap-y-5">
+					<h3 class="text-xl font-bold text-center max-w-sm">SURVEI AWAL KEPENGURUSAN KABINET KORELASI</h3>
+					<p class="px-5 bg-yellow-500 rounded-lg max-w-sm text-md font-medium text-white">Status : Selesai</p>
+					<p class="text-md font-bold">02 Januari 2023</p>
+					<a href="" class="text-md font-medium px-5 bg-blue-800 text-white rounded-xl">Selengkapnya <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+				</div>
+			</div>
+
+			<div class="border-4 rounded-xl max-w-md flex flex-col justify-center gap-y-1 drop-shadow-lg">
+				<div class="p-5 max-w-full bg-neutral-700 h-[15em] rounded-xl"></div>
+				<div class="mt-4 px-10 pb-5 flex flex-col justify-center items-center gap-y-5">
+					<h3 class="text-xl font-bold text-center max-w-sm">SURVEI MAHASISWA BERPRESTASI FKIP UNTAN 2023</h3>
+					<p class="px-5 bg-yellow-500 rounded-lg max-w-sm text-md font-medium text-white">Status : Selesai</p>
+					<p class="text-md font-bold">02 Januari 2023</p>
+					<a href="" class="text-md font-medium px-5 bg-blue-800 text-white rounded-xl">Selengkapnya <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+				</div>
+			</div>	
+		</div>
+
+		<div class="mt-10 px-5 py-2 max-w-sm rounded-md bg-slate-800">
+			<a href="/Survei" class="text-xl font-medium text-white">Lihat Lebih <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+		</div>
+	</div>
+
+	<!-- DataBase -->
+	<div class="mt-16 px-12 flex flex-col items-center">
+		<h1 class="text-3xl font-bold uppercase text-center text-orange-400">DataBase</h1>
+		<div class="mt-5 flex gap-x-10">
+			<div class="border-4 rounded-xl max-w-md flex flex-col justify-center items-star gap-y-5 drop-shadow-lg">
+				<div class="max-w-full bg-neutral-700 h-[15em] rounded-xl"></div>
+				<p class="text-xl font-bold px-5 pb-5 max-w-sm text-center uppercase">DataBase Pengurus BEM FKIP UNTAN KABINET KORELASI</p>
+			</div>
+
+			<div class="border-4 rounded-xl max-w-md flex flex-col justify-center items-star gap-y-5 drop-shadow-lg">
+				<div class="max-w-full bg-neutral-700 h-[15em] rounded-xl"></div>
+				<p class="text-xl font-bold px-5 pb-5 max-w-sm text-center uppercase">DataBase Mahasiswa berprestasi FKIP UNTAN 2023</p>
+			</div>			
+		</div>
+
+		<div class="mt-10 px-5 py-2 max-w-sm rounded-md bg-slate-800">
+			<a href="/Database" class="text-xl font-medium text-white">Lihat Lebih <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+		</div>
+	</div>
+
+	<!-- Research -->
+	<div class="px-12 mt-10 w-full h-[60vh] flex items-center justify-center gap-x-32 bg-orange-400">
+		<div>
+			<img src="/icon2.png" alt="" class="w-[20em]">
+		</div>
+
+		<div class="flex flex-col gap-y-5">
+			<p class="text-2xl text-white font-semibold text-justify max-w-sm">Lihat riset kami untuk informasi penting yang mungkin Anda perlukan</p>
+			<a href="/Riset" class="px-5 py-2 rounded-lg bg-slate-800 text-md text-white font-semibold w-[10em]">Selengkapnya <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+		</div>
+	</div>
+</Mainlayout>
