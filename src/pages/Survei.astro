@@ -3,7 +3,7 @@ import Mainlayout from '../layout/Mainlayout.astro'
 ---
 
 <Mainlayout>
-    <div class="px-12 py-12 gap-x-10 flex flex-row justify-center items-centers w-full h-[36em] bg-auto bg-no-repeat bg-right-top" style="background-image: url(/public/bg.png);">
+    <div class="px-12 py-12 gap-x-10 flex flex-row justify-center items-centers w-full h-[36em] bg-auto bg-no-repeat bg-right-top bg-[url('/public/bg.png')]">
 		<div class="flex mt-10 flex-col gap-y-5 items-start animate__animated animate__fadeInLeft">
 			<h1 class="text-7xl font-bold max-w-md">SELAMAT DATANG</h1>
 			<p class="text-xl  font-bold italic text-orange-400">Di HomeBase Survei DataKite</p>
@@ -11,7 +11,7 @@ import Mainlayout from '../layout/Mainlayout.astro'
 		</div>
 
 		<div>
-			<img src="./public/icon2.png" alt="" class="w-[30em] animate__animated animate__fadeInRight">
+			<img src="/icon2.png" alt="" class="w-[30em] animate__animated animate__fadeInRight">
 		</div>
 	</div>
 
