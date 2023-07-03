@@ -1,5 +1,7 @@
 ---
 import Mainlayout from '../layout/Mainlayout.astro'
+import Data from '../componet/data.json'
+
 ---
 
 <Mainlayout>
@@ -15,8 +17,20 @@ import Mainlayout from '../layout/Mainlayout.astro'
 		</div>
 	</div>
 
-    <div class="mt-5 px-12 py-4 flex items-center justify-center w-full h-screen">
-        <h1 class="text-5xl font-bold">Content Not Found 404</h1>
-    </div>
-</Mainlayout>
+	<div class="px-12 mt-5 w-full h-[30%]">
+
+		<ul class="list-disc">
+			{Data.map(item =>(
+				<li>
+					<p>Nama :{item.nama}</p>
+					<p>Pekerjaan :{item.pekerjaan}</p>
+					<p>Alamat :{item.alamat}</p>
+				</li>
+
+			))}
+		</ul>
+
+	</div>
+
+ </Mainlayout>
 

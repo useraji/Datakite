@@ -1,0 +1,37 @@
+[
+    {
+        "nama": "John Doe",
+        "umur": 25,
+        "alamat": "Jalan Raya No. 123",
+        "pekerjaan": "Insinyur",
+        "email": "john.doe@example.com"
+    },
+    {
+        "nama": "Jane Smith",
+        "umur": 30,
+        "alamat": "Jalan Baru No. 456",
+        "pekerjaan": "Dokter",
+        "email": "jane.smith@example.com"
+    },
+    {
+        "nama": "David Johnson",
+        "umur": 40,
+        "alamat": "Jalan Lama No. 789",
+        "pekerjaan": "Akuntan",
+        "email": "david.johnson@example.com"
+    },
+    {
+        "nama": "Sarah Williams",
+        "umur": 35,
+        "alamat": "Jalan Indah No. 234",
+        "pekerjaan": "Pengacara",
+        "email": "sarah.williams@example.com"
+    },
+    {
+        "nama": "Michael Brown",
+        "umur": 28,
+        "alamat": "Jalan Serasi No. 567",
+        "pekerjaan": "Desainer",
+        "email": "michael.brown@example.com"
+    }
+]
